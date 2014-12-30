@@ -31,7 +31,7 @@ public class QhpDetermination {
             fplCalculate=300;
             applicant.setFPL(fplCalculate);
             
-            KieRuntimeLogger logger = ks.getLoggers().newThreadedFileLogger( kSession, "./QhpDetermination", 1000 );
+          //  KieRuntimeLogger logger = ks.getLoggers().newThreadedFileLogger( kSession, "./QhpDetermination", 1000 );
 
             
             kSession.insert(applicant);
