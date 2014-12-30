@@ -1,4 +1,0 @@
-droolsevaluation
-================
-
-droolsevaluation
