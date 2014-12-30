@@ -21,7 +21,7 @@ end
 rule "EligibilityDetermination_3"
 salience 20
   when
-        m : Applicant(FPL < 138)
+        m : Applicant(FPL < 139)
     then
         System.out.println( "Medicaid" );
 end
